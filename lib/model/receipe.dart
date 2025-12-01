@@ -3,7 +3,7 @@ class Recipe {
  String imageUrl; // URL of the image
 
   // construtor
- Recipe(this.imgLabel, this.imageUrl);
+ Recipe(this.imageUrl, this.imgLabel);
 
 
   static List<Recipe> samples = 

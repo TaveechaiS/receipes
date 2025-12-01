@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:receipes/model/receipe.dart';
 
+
 void main() {
   runApp(const RecipeApp());
 }
@@ -52,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           child: ListView.builder(
             itemBuilder: (BuildContext context, int index) {
-              return buildRecipeCard(Recipe.samples[index]);
+              return Text("Hello");
             },
             itemCount: Recipe.samples.length
           ),
